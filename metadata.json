@@ -1,0 +1,6 @@
+{
+  "name": "Wàllu-Mbay | AgroTech B2B & Économie Circulaire UEMOA",
+  "description": "SaaS B2B de pilotage de la transformation agro-alimentaire, traçabilité HACCP et valorisation des sous-produits pour le Sénégal et l'espace UEMOA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
