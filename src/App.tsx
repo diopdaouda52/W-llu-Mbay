@@ -39,8 +39,8 @@ export default function App() {
       setDownloadProgress('Téléchargement en cours...');
       // Try direct link first
       const link = document.createElement('a');
-      link.href = '/wallu-mbay-source-code.zip';
-      link.download = 'wallu-mbay-source-code.zip';
+      link.href = '/waloumbay-source-code.zip';
+      link.download = 'waloumbay-source-code.zip';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -65,7 +65,7 @@ export default function App() {
         {/* Zone 1: Brand Wordmark */}
         <div className="flex items-center gap-2 shrink-0">
           <span className="text-xl font-extrabold tracking-tight text-slate-900 dark:text-white whitespace-nowrap">
-            Wàllu-Mbay
+            WalouMbay
           </span>
           <span className="text-xs px-2 py-0.5 rounded font-mono font-bold bg-amber-100 text-amber-900 dark:bg-amber-950/60 dark:text-amber-300">
             B2B
@@ -126,7 +126,7 @@ export default function App() {
             <CheckCircle2 className="w-4 h-4" />
             {downloadProgress}
           </span>
-          <span className="font-mono text-[11px]">wallu-mbay-source-code.zip</span>
+          <span className="font-mono text-[11px]">waloumbay-source-code.zip</span>
         </div>
       )}
 
@@ -227,7 +227,7 @@ export default function App() {
       <footer className="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 py-6 px-6 text-xs text-slate-500 dark:text-slate-400">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <span className="font-bold text-slate-800 dark:text-slate-200">Wàllu-Mbay</span>
+            <span className="font-bold text-slate-800 dark:text-slate-200">WalouMbay</span>
             <span aria-hidden="true">·</span>
             <span>AgroTech B2B & Économie Circulaire au Sénégal (Dakar, Thiès, Kaolack, Casamance, Saint-Louis)</span>
           </div>

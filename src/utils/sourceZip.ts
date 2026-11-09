@@ -24,9 +24,9 @@ dist
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wàllu-Mbay | AgroTech B2B & Économie Circulaire UEMOA</title>
+    <title>WalouMbay | AgroTech B2B & Économie Circulaire UEMOA</title>
     <meta name="description" content="SaaS B2B de pilotage de la transformation agro-alimentaire, traçabilité HACCP et valorisation des sous-produits pour le Sénégal et l'espace UEMOA." />
-    <meta property="og:title" content="Wàllu-Mbay | AgroTech B2B & Économie Circulaire UEMOA" />
+    <meta property="og:title" content="WalouMbay | AgroTech B2B & Économie Circulaire UEMOA" />
     <meta property="og:description" content="SaaS B2B de pilotage de la transformation agro-alimentaire, traçabilité HACCP et valorisation des sous-produits pour le Sénégal et l'espace UEMOA." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -116,7 +116,7 @@ export default defineConfig(() => {
 });
 `);
 
-  zip.file('README.md', `# Wàllu-Mbay | AgroTech B2B & Économie Circulaire UEMOA
+  zip.file('README.md', `# WalouMbay | AgroTech B2B & Économie Circulaire UEMOA
 
 > « Denc sa mbay, wàllu sa liggey, doli sa xaalis » (Sécuriser la récolte, rentabiliser le travail, multiplier les gains)
 
@@ -133,7 +133,7 @@ Plateforme SaaS B2B de pilotage de la transformation agro-alimentaire, traçabil
 
 \`\`\`bash
 # 1. Cloner ou dézipper le projet
-cd wallu-mbay
+cd waloumbay
 
 # 2. Installer les dépendances
 npm install
@@ -169,7 +169,7 @@ npm run dev
     return `# LIVRABLE ${d.number} : ${d.title}\n\n**Synthèse :** ${d.summary}\n\n${d.content}${tableText}\n\n---\n`;
   }).join('\n');
 
-  zip.file('DOSSIER_CONCEPTION_WALLU_MBAY.md', fullDossierMarkdown);
+  zip.file('DOSSIER_CONCEPTION_WALOUMBAY.md', fullDossierMarkdown);
 
   // Source files
   if (onProgress) onProgress('Ajout des composants TypeScript et CSS...');
@@ -244,7 +244,7 @@ createRoot(document.getElementById('root')!).render(<App />);
   const downloadUrl = URL.createObjectURL(blob);
   const anchor = document.createElement('a');
   anchor.href = downloadUrl;
-  anchor.download = 'wallu-mbay-source-code.zip';
+  anchor.download = 'waloumbay-source-code.zip';
   document.body.appendChild(anchor);
   anchor.click();
   document.body.removeChild(anchor);

@@ -121,7 +121,7 @@ export const FILIERES_DATA: FilierePreset[] = [
 
 export const VALUE_PROPOSITION_CORE = {
   heroTitle: "Transformer les pertes invisibles en trésorerie et en données certifiées pour l'agrobusiness ouest-africain",
-  heroSubtitle: "Wàllu-Mbay est le premier système d'exploitation B2B de gestion industrielle et d'économie circulaire conçu pour les unités de transformation et coopératives d'Afrique de l'Ouest. Fonctionnant sans connexion Internet permanente, il pilote la réception, la traçabilité HACCP et connecte instantanément les sous-produits aux filières de valorisation.",
+  heroSubtitle: "WalouMbay est le premier système d'exploitation B2B de gestion industrielle et d'économie circulaire conçu pour les unités de transformation et coopératives d'Afrique de l'Ouest. Fonctionnant sans connexion Internet permanente, il pilote la réception, la traçabilité HACCP et connecte instantanément les sous-produits aux filières de valorisation.",
   promiseLine: "« Denc sa mbay, wàllu sa liggey, doli sa xaalis » — Sécuriser la récolte, rentabiliser le travail, multiplier les gains.",
   pillars: [
     {

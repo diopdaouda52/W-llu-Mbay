@@ -81,7 +81,7 @@ export const DossierView: React.FC = () => {
             <span>MVP 4 Mois & Feuille de Route 18 Mois</span>
           </div>
           <h2 className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mt-1">
-            Les 10 Livrables Stratégiques & Techniques de Wàllu-Mbay
+            Les 10 Livrables Stratégiques & Techniques de WalouMbay
           </h2>
           <p className="text-xs md:text-sm text-slate-500 dark:text-slate-400 mt-1">
             Documentation complète, chiffrée et opposable aux bailleurs (FONSIS, DER/FJ, BNDE, Banque Mondiale).
@@ -90,8 +90,8 @@ export const DossierView: React.FC = () => {
 
         <div className="flex flex-wrap items-center gap-2">
           <a
-            href="/wallu-mbay-source-code.zip"
-            download="wallu-mbay-source-code.zip"
+            href="/waloumbay-source-code.zip"
+            download="waloumbay-source-code.zip"
             className="px-4 py-2 text-xs font-bold rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white flex items-center gap-2 transition-all shadow-sm"
           >
             <Download className="w-4 h-4" />

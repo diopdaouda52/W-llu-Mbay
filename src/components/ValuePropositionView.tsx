@@ -84,7 +84,7 @@ export const ValuePropositionView: React.FC<Props> = ({ language }) => {
 
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight">
             {language === 'wo' 
-              ? 'Wàllu-Mbay: Denc sa mbay, wàllu sa liggey, doli sa xaalis'
+              ? 'WalouMbay: Denc sa mbay, wàllu sa liggey, doli sa xaalis'
               : VALUE_PROPOSITION_CORE.heroTitle}
           </h1>
 
@@ -116,7 +116,7 @@ export const ValuePropositionView: React.FC<Props> = ({ language }) => {
                 <span>{language === 'wo' ? 'Déglul ci Wolof (Vocal pour opérateurs de terrain)' : 'Synthèse vocale Wolof intégrée (Accessibilité ouvriers non lettrés)'}</span>
               </div>
               <p className="text-xs text-slate-400 italic">
-                « As-salaamu alaykum. Wàllu-Mbay jël na 5 000 kilo mangoor. Xooch yi ak doolli yi am nañu 380 000 FCFA ci jëndkat yi. »
+                « As-salaamu alaykum. WalouMbay jël na 5 000 kilo mangoor. Xooch yi ak doolli yi am nañu 380 000 FCFA ci jëndkat yi. »
               </p>
             </div>
             <button
@@ -143,7 +143,7 @@ export const ValuePropositionView: React.FC<Props> = ({ language }) => {
               {language === 'wo' ? 'Li mu lay jariñ' : 'Les 4 Piliers Fondamentaux'}
             </span>
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white mt-1">
-              {language === 'wo' ? 'Bénéfices bu baax ci transformateur yi ak coopératives' : 'Pourquoi Wàllu-Mbay transforme l’Agribusiness ouest-africain'}
+              {language === 'wo' ? 'Bénéfices bu baax ci transformateur yi ak coopératives' : 'Pourquoi WalouMbay transforme l’Agribusiness ouest-africain'}
             </h2>
           </div>
 
@@ -219,17 +219,17 @@ export const ValuePropositionView: React.FC<Props> = ({ language }) => {
                   {pillar.summary}
                 </p>
 
-                {/* Contrast Before vs With Wallu */}
+                {/* Contrast Before vs With Walou */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs">
                   <div className="p-3 rounded-lg bg-red-50/60 dark:bg-red-950/30 border border-red-200/60 dark:border-red-900/40">
                     <span className="font-semibold text-red-800 dark:text-red-400 block mb-1">
-                      Sans Wàllu-Mbay (Actuel)
+                      Sans WalouMbay (Actuel)
                     </span>
                     <p className="text-slate-700 dark:text-slate-300">{pillar.baseline}</p>
                   </div>
                   <div className="p-3 rounded-lg bg-emerald-50/60 dark:bg-emerald-950/30 border border-emerald-200/60 dark:border-emerald-900/40">
                     <span className="font-semibold text-emerald-800 dark:text-emerald-400 block mb-1">
-                      Avec Wàllu-Mbay
+                      Avec WalouMbay
                     </span>
                     <p className="text-slate-700 dark:text-slate-300">{pillar.withWallu}</p>
                   </div>
@@ -262,7 +262,7 @@ export const ValuePropositionView: React.FC<Props> = ({ language }) => {
               Calculez la valeur cachée de vos sous-produits au Sénégal
             </h3>
             <p className="text-xs md:text-sm text-slate-600 dark:text-slate-400">
-              Sélectionnez une filière et un tonnage de matière première entrante pour constater le gain de trésorerie net généré par Wàllu-Mbay.
+              Sélectionnez une filière et un tonnage de matière première entrante pour constater le gain de trésorerie net généré par WalouMbay.
             </p>
           </div>
 
@@ -324,7 +324,7 @@ export const ValuePropositionView: React.FC<Props> = ({ language }) => {
           </div>
 
           <div className="p-4 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-900">
-            <span className="text-xs text-amber-800 dark:text-amber-300 block mb-1">Revenu Sous-Produits Wàllu</span>
+            <span className="text-xs text-amber-800 dark:text-amber-300 block mb-1">Revenu Sous-Produits Walou</span>
             <div className="text-xl font-extrabold text-amber-700 dark:text-amber-400 font-mono-numbers">
               +{totalByProductsRevenue.toLocaleString('fr-FR')} FCFA
             </div>
@@ -355,7 +355,7 @@ export const ValuePropositionView: React.FC<Props> = ({ language }) => {
               {circularNet.toLocaleString('fr-FR')} FCFA
             </div>
             <p className="text-xs text-slate-400 mt-1">
-              vs {traditionalNet.toLocaleString('fr-FR')} FCFA sans Wàllu
+              vs {traditionalNet.toLocaleString('fr-FR')} FCFA sans WalouMbay
             </p>
             <div className="text-xs text-emerald-400 mt-2 font-semibold">
               Rembourse le SaaS en 12 jours
@@ -398,13 +398,13 @@ export const ValuePropositionView: React.FC<Props> = ({ language }) => {
       <section className="space-y-6">
         <div>
           <span className="text-xs font-bold uppercase tracking-wider text-sky-700 dark:text-sky-400">
-            {language === 'wo' ? 'Nit ñi nga xamne dañuy jëfandikoo Wàllu-Mbay' : 'Analyse Approfondie des Cibles'}
+            {language === 'wo' ? 'Nit ñi nga xamne dañuy jëfandikoo WalouMbay' : 'Analyse Approfondie des Cibles'}
           </span>
           <h2 className="text-2xl font-bold text-slate-900 dark:text-white mt-1">
             {language === 'wo' ? '3 Personas yu gën a am solo' : '3 Personas Clés au Sénégal & Trajectoires de Valeur'}
           </h2>
           <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
-            Découvrez comment Wàllu-Mbay résout les blocages réels de terrain pour une transformatrice, un président de coopérative et un acheteur industriel de sous-produits.
+            Découvrez comment WalouMbay résout les blocages réels de terrain pour une transformatrice, un président de coopérative et un acheteur industriel de sous-produits.
           </p>
         </div>
 
@@ -503,10 +503,10 @@ export const ValuePropositionView: React.FC<Props> = ({ language }) => {
               </ul>
             </div>
 
-            {/* Wàllu-Mbay Solution */}
+            {/* WalouMbay Solution */}
             <div className="space-y-3">
               <h4 className="text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 flex items-center gap-1.5">
-                <span>★ La Réponse Wàllu-Mbay</span>
+                <span>★ La Réponse WalouMbay</span>
               </h4>
               <ul className="space-y-2 text-xs text-slate-600 dark:text-slate-300">
                 {selectedPersona.walluSolution.map((s, i) => (
@@ -532,7 +532,7 @@ export const ValuePropositionView: React.FC<Props> = ({ language }) => {
               Facilitation du Financement Bancaire & Bailleurs
             </span>
             <h3 className="text-xl font-bold text-slate-900 dark:text-white">
-              Comment Wàllu-Mbay rend les PME et Coopératives « Bankables »
+              Comment WalouMbay rend les PME et Coopératives « Bankables »
             </h3>
           </div>
         </div>

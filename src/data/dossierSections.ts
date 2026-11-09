@@ -18,10 +18,10 @@ export const DOSSIER_DELIVERABLES: DeliverableSection[] = [
     title: 'Synthèse du Concept, Proposition de Valeur & Personas',
     summary: 'Positionnement stratégique, proposition de valeur multilatérale et modélisation de 3 personas représentatifs du tissu agro-industriel sénégalais et ouest-africain.',
     content: `### 1.1 Énoncé Fondateur du Produit
-**Wàllu-Mbay** (qui signifie en Wolof *"Sauver, Rentabiliser et Protéger l'Agriculture"*) est un SaaS B2B industriel et circulaire conçu pour combler le fossé technologique des unités de transformation agroalimentaire et coopératives d'Afrique de l'Ouest (Sénégal en tête, puis zone UEMOA : Mali, Côte d'Ivoire, Burkina Faso, Bénin, Togo, Niger, Guinée-Bissau).
+**WalouMbay** (qui signifie en Wolof *"Sauver, Rentabiliser et Protéger l'Agriculture"*) est un SaaS B2B industriel et circulaire conçu pour combler le fossé technologique des unités de transformation agroalimentaire et coopératives d'Afrique de l'Ouest (Sénégal en tête, puis zone UEMOA : Mali, Côte d'Ivoire, Burkina Faso, Bénin, Togo, Niger, Guinée-Bissau).
 
 ### 1.2 La Proposition de Valeur Centrale
-> **« Pour les PME agro-industrielles, coopératives et GIE d'Afrique de l'Ouest confrontés aux pertes post-récolte massives et au manque de traçabilité, Wàllu-Mbay est la première solution de pilotage industriel Offline-First qui monétise automatiquement les sous-produits sur une bourse B2B, garantit la conformité HACCP/export et génère les données certifiées nécessaires pour débloquer les financements bancaires. »**
+> **« Pour les PME agro-industrielles, coopératives et GIE d'Afrique de l'Ouest confrontés aux pertes post-récolte massives et au manque de traçabilité, WalouMbay est la première solution de pilotage industriel Offline-First qui monétise automatiquement les sous-produits sur une bourse B2B, garantit la conformité HACCP/export et génère les données certifiées nécessaires pour débloquer les financements bancaires. »**
 
 ### 1.3 Proposition Déclinée par Segment de Marché
 1. **Pour les Unités de Transformation Industrielles & Semi-Industrielles (PME/ETI) :**
@@ -36,9 +36,9 @@ export const DOSSIER_DELIVERABLES: DeliverableSection[] = [
 
 ### 1.4 Parcours Utilisateurs Clés (BPMN Synthétique)
 - **Parcours 1 : Réception & Paiement Producteur (Quai Usine / Point de Collecte)**
-  *Opérateur quai* pèse le camion/charrette (offline) -> Réfractomètre & humidimètre connectés ou saisis -> *Wàllu-Mbay* calcule le poids net réfractionné -> Génération du ticket de pesée avec QR Code -> Ordre de virement Mobile Money automatique (Wave/OM) -> Synchro cloud dès détection de réseau.
+  *Opérateur quai* pèse le camion/charrette (offline) -> Réfractomètre & humidimètre connectés ou saisis -> *WalouMbay* calcule le poids net réfractionné -> Génération du ticket de pesée avec QR Code -> Ordre de virement Mobile Money automatique (Wave/OM) -> Synchro cloud dès détection de réseau.
 - **Parcours 2 : Lancement d'Ordre de Fabrication (OF) & Économie Circulaire**
-  *Responsable production* sélectionne la recette (ex: 5 tonnes mangues Kent) -> *Wàllu-Mbay* alloue les lots entrants et génère 2 flux simultanés : Flux A (Produit fini : 600 kg mangues séchées) et Flux B (Coproduits : 1 100 kg noyaux + 1 750 kg pulpes résiduelles) -> Inscription automatique des coproduits sur la bourse B2B locale -> Matching avec acheteur de savonnerie ou provenderie.
+  *Responsable production* sélectionne la recette (ex: 5 tonnes mangues Kent) -> *WalouMbay* alloue les lots entrants et génère 2 flux simultanés : Flux A (Produit fini : 600 kg mangues séchées) et Flux B (Coproduits : 1 100 kg noyaux + 1 750 kg pulpes résiduelles) -> Inscription automatique des coproduits sur la bourse B2B locale -> Matching avec acheteur de savonnerie ou provenderie.
 - **Parcours 3 : Audit de Traçabilité & Exportation**
   *Inspecteur DPV (Direction de la Protection des Végétaux)* ou acheteur export scanne le QR code du carton fini -> Affichage instantané : parcelle source, date récolte, intrants utilisés, température de séchage, résultat d'analyses aflatoxines/pesticides.`,
   },
@@ -55,11 +55,11 @@ export const DOSSIER_DELIVERABLES: DeliverableSection[] = [
   - **Zone UEMOA (8 pays) :** Marché adressable initial de ~14 000 unités de transformation d'ici 3 ans.
 
 ### 2.2 Matrice Concurrentielle Analytique
-Wàllu-Mbay se positionne à l'intersection unique entre **l'ERP agro-industriel de terrain**, **l'économie circulaire B2B** et la **fintech mobile money**.`,
+WalouMbay se positionne à l'intersection unique entre **l'ERP agro-industriel de terrain**, **l'économie circulaire B2B** et la **fintech mobile money**.`,
     keyTables: [
       {
         caption: 'Tableau comparatif des solutions disponibles sur le marché',
-        headers: ['Critères d’Évaluation', 'ERP Traditionnels (SAP, Odoo, Sage)', 'Solutions AgriTech Locales (Tolbi, Jokalante)', 'Wàllu-Mbay (Notre Positionnement)'],
+        headers: ['Critères d’Évaluation', 'ERP Traditionnels (SAP, Odoo, Sage)', 'Solutions AgriTech Locales (Tolbi, Jokalante)', 'WalouMbay (Notre Positionnement)'],
         rows: [
           ['Connectivité & Déploiement', 'Cloud lourd dépendant du Web 4G/Fibre', 'SMS / USSD légers mais limités', 'Offline-First complet (IndexedDB + PWA)'],
           ['Gestion des sous-produits', 'Comptabilisés comme simple rebut / déchet', 'Absente (focus champ/météo)', 'Catalogue automatique + Bourse B2B intégrée'],
@@ -174,7 +174,7 @@ Scénario: Enregistrement réussi d'une pesée sans réseau
 \`\`\`
 
 **US-02 : Synchronisation automatique et réconciliation de données**
-- *En tant que :* Système Wàllu-Mbay.
+- *En tant que :* Système WalouMbay.
 - *Je veux :* Détecter le retour du réseau Wi-Fi ou 3G/4G et expédier la file d'attente vers le cloud.
 - *Afin de :* Mettre à jour l'inventaire central de l'usine sans écraser d'autres modifications simultanées.
 
@@ -224,7 +224,7 @@ Scénario: Enregistrement réussi d'une pesée sans réseau
     title: 'Wireframes Textuels des 5 Écrans Clés',
     summary: 'Spécifications ergonomiques, zones fonctionnelles et arborescence tactile des 5 écrans pivots de l’application.',
     content: `### Écran 1 : Tableau de Bord Mobile Quai & Production (Home)
-- **Top Bar :** Logo Wàllu-Mbay | Sélecteur Langue [FR/WO] | Badge Réseau [🟢 En ligne / 🟠 Hors-ligne (3 en attente)] | Profil Usine.
+- **Top Bar :** Logo WalouMbay | Sélecteur Langue [FR/WO] | Badge Réseau [🟢 En ligne / 🟠 Hors-ligne (3 en attente)] | Profil Usine.
 - **Bandeau KPI Supérieur :**
   - Kilos réceptionnés aujourd'hui (ex: 14 250 kg)
   - Rendement moyen atelier (ex: 84.2%)
@@ -260,7 +260,7 @@ Scénario: Enregistrement réussi d'une pesée sans réseau
   - CTA : [RÉSERVER LE LOT] / [CONTACTER DIRECTEMENT WHATSAPP].
 
 ### Écran 5 : Fiche Publique de Traçabilité (Scan QR Code Consommateur & DPV)
-- **En-tête officiel :** Certificat de Traçabilité Wàllu-Mbay #SN-2026-HACCP-9812.
+- **En-tête officiel :** Certificat de Traçabilité WalouMbay #SN-2026-HACCP-9812.
 - **Généalogie du Produit :**
   - Date de conditionnement & DLUO.
   - Coopérative d'origine & Région de récolte (carte géo Sénégal).
@@ -274,10 +274,10 @@ Scénario: Enregistrement réussi d'une pesée sans réseau
     summary: 'Hybridation SaaS B2B + Commission sur la marketplace circulaire, projection financière à 3 ans et calcul du point mort (break-even).',
     content: `### 8.1 Les Deux Moteurs de Monétisation
 1. **Abonnement SaaS B2B Récurrent (MRR) :** Facturé aux unités de transformation et coopératives pour l'accès aux modules ERP, traçabilité, offline et gestion de stocks.
-2. **Commission sur les Transactions de Sous-Produits (Take Rate) :** 3% à 4.5% prélevés sur les volumes de coproduits vendus via la place de marché Wàllu-Mbay, payés par l'acheteur industriel.`,
+2. **Commission sur les Transactions de Sous-Produits (Take Rate) :** 3% à 4.5% prélevés sur les volumes de coproduits vendus via la place de marché WalouMbay, payés par l'acheteur industriel.`,
     keyTables: [
       {
-        caption: 'Grille tarifaire des abonnements Wàllu-Mbay (en FCFA et EUR)',
+        caption: 'Grille tarifaire des abonnements WalouMbay (en FCFA et EUR)',
         headers: ['Formule', 'Cible Principale', 'Prix Mensuel (FCFA)', 'Équivalent EUR', 'Périmètre Inclus'],
         rows: [
           ['Formule « GIE / Koor-gi »', 'Petits GIE de femmes & coopératives villageoises (<50 tonnes/an)', '25 000 FCFA / mois', '~38 € / mois', '1 site, 3 utilisateurs, mode offline, pesée & Wave, traçabilité QR simple'],
@@ -313,7 +313,7 @@ Scénario: Enregistrement réussi d'une pesée sans réseau
 ### 9.2 Alliances Institutionnelles & Bailleurs
 - **Institut de Technologie Alimentaire (ITA) de Dakar :** Validation scientifique des rendements de référence et calibrage des recettes de sous-produits.
 - **Direction de la Protection des Végétaux (DPV) & Direction du Commerce Intérieur :** Homologation du module de traçabilité QR Code pour les contrôles réglementaires.
-- **DER/FJ (Délégation Générale à l'Entreprenariat Rapide des Femmes et des Jeunes) & FONSIS :** Intégration de Wàllu-Mbay comme outil recommandé pour les PME bénéficiaires de prêts agricoles.
+- **DER/FJ (Délégation Générale à l'Entreprenariat Rapide des Femmes et des Jeunes) & FONSIS :** Intégration de WalouMbay comme outil recommandé pour les PME bénéficiaires de prêts agricoles.
 - **Banques Partenaires (BNDE, La Banque Agricole - LBA) :** Mise en place d'un connecteur d'audit pour le scoring de crédit de campagne.`,
   },
   {
@@ -325,7 +325,7 @@ Scénario: Enregistrement réussi d'une pesée sans réseau
     keyTables: [
       {
         caption: 'Matrice d’Analyse des Risques et Stratégies de Résilience',
-        headers: ['Nature du Risque', 'Niveau d’Impact', 'Probabilité', 'Mesures de Mitigation Wàllu-Mbay'],
+        headers: ['Nature du Risque', 'Niveau d’Impact', 'Probabilité', 'Mesures de Mitigation WalouMbay'],
         rows: [
           [
             'Réseau telecom instable / coupures prolongées',
